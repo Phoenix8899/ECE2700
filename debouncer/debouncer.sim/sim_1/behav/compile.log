@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecestudent/ECE2700/debouncer/debouncer.srcs/sources_1/new/debouncer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debouncer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecestudent/ECE2700/debouncer/debouncer.srcs/sim_1/new/debounceTest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debounceTest
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecestudent/ECE2700/debouncer/debouncer.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

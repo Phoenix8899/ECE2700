@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1538672354">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="CarrySixteen.vdi"/>
+  <File Type="BG-DRC" Name="CarrySixteen.drc"/>
+  <File Type="BG-BGN" Name="CarrySixteen.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="CarrySixteen.sysdef"/>
+  <File Type="BITSTR-MMI" Name="CarrySixteen.mmi"/>
+  <File Type="BITSTR-BMM" Name="CarrySixteen_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="CarrySixteen.nky"/>
+  <File Type="BITSTR-RBT" Name="CarrySixteen.rbt"/>
+  <File Type="BITSTR-MSK" Name="CarrySixteen.msk"/>
+  <File Type="BG-BIN" Name="CarrySixteen.bin"/>
+  <File Type="BG-BIT" Name="CarrySixteen.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="CarrySixteen_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="CarrySixteen_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="CarrySixteen_postroute_physopt.dcp"/>
+  <File Type="ROUTE-CLK" Name="CarrySixteen_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="CarrySixteen_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="CarrySixteen_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="CarrySixteen_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="CarrySixteen_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="CarrySixteen_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="CarrySixteen_route_status.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="CarrySixteen_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="CarrySixteen_power_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="CarrySixteen_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="CarrySixteen_drc_routed.rpt"/>
+  <File Type="ROUTE-DCP" Name="CarrySixteen_routed.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="CarrySixteen_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="CarrySixteen_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="CarrySixteen_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="CarrySixteen_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="CarrySixteen_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="CarrySixteen_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="CarrySixteen_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="CarrySixteen_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="CarrySixteen_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="CarrySixteen_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="CarrySixteen_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="CarrySixteen_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="CarrySixteen_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="CarrySixteen_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="CarrySixteen_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="CarrySixteen_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="CarrySixteen_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="CarrySixteen_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="CarrySixteen.hwdef"/>
+  <File Type="OPT-DRC" Name="CarrySixteen_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="CarrySixteen_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="CarrySixteen_timing_summary_init.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="CarrySixteen_timing_summary_postroute_physopted.pb"/>
+  <File Type="PA-TCL" Name="CarrySixteen.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/OneBit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FourBit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CarryFour.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CarrySixteen.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SixteenBit.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="CarrySixteen"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/ECE2700/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1536244087"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015">
+      <Desc>Vivado Implementation Defaults</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design" EnableStepBool="0"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

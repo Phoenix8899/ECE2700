@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Nov 29 09:16:59 2018
+# Process ID: 15272
+# Current directory: /home/ecestudent/ECE2700/processor/processor.runs/impl_1
+# Command line: vivado -log processor.vdi -applog -messageDb vivado.pb -mode batch -source processor.tcl -notrace
+# Log file: /home/ecestudent/ECE2700/processor/processor.runs/impl_1/processor.vdi
+# Journal file: /home/ecestudent/ECE2700/processor/processor.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source processor.tcl -notrace

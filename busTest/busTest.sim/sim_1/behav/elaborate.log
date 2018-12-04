@@ -1,0 +1,17 @@
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab -wto 0db4c71bea2c4be1928d37538ccfa6ae --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot busTestBench_behav xil_defaultlib.busTestBench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 5 for port led [/home/ecestudent/ECE2700/busTest/busTest.srcs/sim_1/new/busTestBench.v:32]
+WARNING: [VRFC 10-1783] select index 2 into outer is out of bounds [/home/ecestudent/ECE2700/busTest/busTest.srcs/sources_1/new/busTest.v:38]
+WARNING: [VRFC 10-1783] select index 3 into outer is out of bounds [/home/ecestudent/ECE2700/busTest/busTest.srcs/sources_1/new/busTest.v:39]
+WARNING: [VRFC 10-1783] select index 3 into outer is out of bounds [/home/ecestudent/ECE2700/busTest/busTest.srcs/sources_1/new/busTest.v:40]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.busTest
+Compiling module xil_defaultlib.busTestBench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot busTestBench_behav

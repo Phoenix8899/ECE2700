@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Oct 11 09:57:37 2018
+# Process ID: 27198
+# Current directory: /home/ecestudent/ECE2700/MUX/MUX.runs/synth_1
+# Command line: vivado -log mux.vds -mode batch -messageDb vivado.pb -notrace -source mux.tcl
+# Log file: /home/ecestudent/ECE2700/MUX/MUX.runs/synth_1/mux.vds
+# Journal file: /home/ecestudent/ECE2700/MUX/MUX.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source mux.tcl -notrace

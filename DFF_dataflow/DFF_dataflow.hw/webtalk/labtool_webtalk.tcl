@@ -1,0 +1,28 @@
+webtalk_init -webtalk_dir /home/ecestudent/ECE2700/DFF_dataflow/DFF_dataflow.hw/webtalk/
+webtalk_register_client -client project
+webtalk_add_data -client project -key date_generated -value "Tue Nov 13 07:15:34 2018" -context "software_version_and_target_device"
+webtalk_add_data -client project -key product_version -value "Vivado v2015.4 (64-bit)" -context "software_version_and_target_device"
+webtalk_add_data -client project -key build_version -value "1412921" -context "software_version_and_target_device"
+webtalk_add_data -client project -key os_platform -value "LIN64" -context "software_version_and_target_device"
+webtalk_add_data -client project -key registration_id -value "210998954_1777507267_0_046" -context "software_version_and_target_device"
+webtalk_add_data -client project -key tool_flow -value "labtool" -context "software_version_and_target_device"
+webtalk_add_data -client project -key beta -value "FALSE" -context "software_version_and_target_device"
+webtalk_add_data -client project -key route_design -value "FALSE" -context "software_version_and_target_device"
+webtalk_add_data -client project -key target_family -value "not_applicable" -context "software_version_and_target_device"
+webtalk_add_data -client project -key target_device -value "not_applicable" -context "software_version_and_target_device"
+webtalk_add_data -client project -key target_package -value "not_applicable" -context "software_version_and_target_device"
+webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
+webtalk_add_data -client project -key random_id -value "312fec08-7609-4e76-9b48-7e05a69625c9" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_id -value "8ffc07d9-650f-48b4-96d0-9f90de7c8b45" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "3" -context "software_version_and_target_device"
+webtalk_add_data -client project -key os_name -value "CentOS" -context "user_environment"
+webtalk_add_data -client project -key os_release -value "CentOS Linux release 7.5.1804 (Core)" -context "user_environment"
+webtalk_add_data -client project -key cpu_name -value "AMD Ryzen 5 1600X Six-Core Processor" -context "user_environment"
+webtalk_add_data -client project -key cpu_speed -value "2200.000 MHz" -context "user_environment"
+webtalk_add_data -client project -key total_processors -value "2" -context "user_environment"
+webtalk_add_data -client project -key system_ram -value "16.000 GB" -context "user_environment"
+webtalk_register_client -client labtool
+webtalk_add_data -client labtool -key pgmcnt -value "00:00:00" -context "labtool\\usage"
+webtalk_add_data -client labtool -key cable -value "" -context "labtool\\usage"
+webtalk_transmit -clientid 2515467916 -regid "210998954_1777507267_0_046" -xml /home/ecestudent/ECE2700/DFF_dataflow/DFF_dataflow.hw/webtalk/usage_statistics_ext_labtool.xml -html /home/ecestudent/ECE2700/DFF_dataflow/DFF_dataflow.hw/webtalk/usage_statistics_ext_labtool.html -wdm /home/ecestudent/ECE2700/DFF_dataflow/DFF_dataflow.hw/webtalk/usage_statistics_ext_labtool.wdm -intro "<H3>LABTOOL Usage Report</H3><BR>"
+webtalk_terminate

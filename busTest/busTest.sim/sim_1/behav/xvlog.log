@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecestudent/ECE2700/busTest/busTest.srcs/sources_1/new/busTest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module busTest
+WARNING: [VRFC 10-998] macro outer redefined [/home/ecestudent/ECE2700/busTest/busTest.srcs/sources_1/new/busTest.v:31]
+WARNING: [VRFC 10-998] macro outer redefined [/home/ecestudent/ECE2700/busTest/busTest.srcs/sources_1/new/busTest.v:32]
+WARNING: [VRFC 10-998] macro outer redefined [/home/ecestudent/ECE2700/busTest/busTest.srcs/sources_1/new/busTest.v:33]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecestudent/ECE2700/busTest/busTest.srcs/sim_1/new/busTestBench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module busTestBench
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecestudent/ECE2700/busTest/busTest.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

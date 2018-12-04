@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1542120187">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="DebounceCounter.vdi"/>
+  <File Type="BG-DRC" Name="DebounceCounter.drc"/>
+  <File Type="BG-BGN" Name="DebounceCounter.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="DebounceCounter.sysdef"/>
+  <File Type="BITSTR-MMI" Name="DebounceCounter.mmi"/>
+  <File Type="BITSTR-BMM" Name="DebounceCounter_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="DebounceCounter.nky"/>
+  <File Type="BITSTR-RBT" Name="DebounceCounter.rbt"/>
+  <File Type="BITSTR-MSK" Name="DebounceCounter.msk"/>
+  <File Type="BG-BIN" Name="DebounceCounter.bin"/>
+  <File Type="BG-BIT" Name="DebounceCounter.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="DebounceCounter_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="DebounceCounter_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="DebounceCounter_postroute_physopt.dcp"/>
+  <File Type="ROUTE-CLK" Name="DebounceCounter_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="DebounceCounter_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="DebounceCounter_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="DebounceCounter_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="DebounceCounter_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="DebounceCounter_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="DebounceCounter_route_status.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="DebounceCounter_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="DebounceCounter_power_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="DebounceCounter_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="DebounceCounter_drc_routed.rpt"/>
+  <File Type="ROUTE-DCP" Name="DebounceCounter_routed.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="DebounceCounter_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="DebounceCounter_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="DebounceCounter_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="DebounceCounter_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="DebounceCounter_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="DebounceCounter_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="DebounceCounter_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="DebounceCounter_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="DebounceCounter_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="DebounceCounter_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="DebounceCounter_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="DebounceCounter_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="DebounceCounter_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="DebounceCounter_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="DebounceCounter_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="DebounceCounter_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="DebounceCounter_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="DebounceCounter_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="DebounceCounter.hwdef"/>
+  <File Type="OPT-DRC" Name="DebounceCounter_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="DebounceCounter_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="DebounceCounter_timing_summary_init.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="DebounceCounter_timing_summary_postroute_physopted.pb"/>
+  <File Type="PA-TCL" Name="DebounceCounter.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/jkCounter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/debouncer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DebounceCounter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="DebounceCounter"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/ECE2700/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1536244087"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream">
+      <Option Id="BinFile">1</Option>
+    </Step>
+  </Strategy>
+</GenRun>

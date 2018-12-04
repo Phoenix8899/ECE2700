@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Oct 11 09:29:14 2018
+# Process ID: 21224
+# Current directory: /home/ecestudent/ECE2700/Lab4/Lab4.runs/impl_1
+# Command line: vivado -log decoder3_8.vdi -applog -messageDb vivado.pb -mode batch -source decoder3_8.tcl -notrace
+# Log file: /home/ecestudent/ECE2700/Lab4/Lab4.runs/impl_1/decoder3_8.vdi
+# Journal file: /home/ecestudent/ECE2700/Lab4/Lab4.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source decoder3_8.tcl -notrace
+Command: open_checkpoint decoder3_8_opt.dcp
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-25:part0:1.0 available at /opt/Xilinx/Vivado/2015.4/data/boards/board_files/arty-s7-25/E.0/board.xml as part xc7s25csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-50:part0:1.0 available at /opt/Xilinx/Vivado/2015.4/data/boards/board_files/arty-s7-50/B.0/board.xml as part xc7s50csga324-1 specified in board_part file is either invalid or not available

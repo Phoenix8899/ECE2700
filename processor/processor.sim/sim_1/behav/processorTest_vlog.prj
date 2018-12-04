@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../processor.srcs/sources_1/new/caseController.v"
+verilog xil_defaultlib  "../../../../debouncer/debouncer.srcs/sources_1/new/debouncer.v"
+verilog xil_defaultlib  "../../../processor.srcs/sources_1/new/processor.v"
+verilog xil_defaultlib  "../../../processor.srcs/sim_1/new/processorTest.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

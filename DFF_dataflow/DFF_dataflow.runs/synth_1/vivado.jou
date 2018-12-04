@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Nov  1 09:39:59 2018
+# Process ID: 24087
+# Current directory: /home/ecestudent/ECE2700/DFF_dataflow/DFF_dataflow.runs/synth_1
+# Command line: vivado -log JKFF.vds -mode batch -messageDb vivado.pb -notrace -source JKFF.tcl
+# Log file: /home/ecestudent/ECE2700/DFF_dataflow/DFF_dataflow.runs/synth_1/JKFF.vds
+# Journal file: /home/ecestudent/ECE2700/DFF_dataflow/DFF_dataflow.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source JKFF.tcl -notrace
