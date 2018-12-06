@@ -26,48 +26,50 @@ module rom(
     );
     
     reg [7:0] mem [0:13];
-    reg [13:0] pointer;
+    reg [3:0] pointer;
     reg run;
-    
-    
-    initial begin
-    mem[0] <= 8'b0000_0001;
-    mem[1] <= 8'b0001_0010;
-    mem[2] <= 8'b0010_1000;
-    mem[3] <= 8'b0011_1000;
-    mem[4] <= 8'b0100_0000;
-    mem[5] <= 8'b0101_0000;
-    mem[6] <= 8'b0110_0000;
-    mem[7] <= 8'b0111_0000;
-    
-    mem[8] <= 8'b0100_0000;
-    mem[9] <= 8'b0101_0000;
-    mem[10] <= 8'b0111_0000;
-    
-    mem[11] <= 8'b0100_0000;
-    mem[12] <= 8'b0101_0000;
-    mem[13] <= 8'b0111_0000;
-    
-    end
-    
     wire clkout;
     
-    clockDivider C(.clkin(clk),.clkout(clkout));
+    initial begin
+    mem[0] = 8'b0000_0001;
+    mem[1] = 8'b0001_0010;
+    mem[2] = 8'b0010_1000;
+    mem[3] = 8'b0011_1000;
     
-    caseController R(.sw(mem[pointer]),.en(run),.led(led));
+    mem[4] = 8'b0100_0000;
+    mem[5] = 8'b0101_0000;
+    mem[6] = 8'b0110_0000;
+    mem[7] = 8'b0111_0000;
     
-    always @(posedge clkout) begin
+    mem[8] = 8'b0100_0000;
+    mem[9] = 8'b0101_0000;
+    mem[10] = 8'b0111_0000;
+    
+    mem[11] = 8'b0100_0000;
+    mem[12] = 8'b0101_0000;
+    mem[13] = 8'b0111_0000;
+    
+    run = 1;
+    end
+    
+    wire inLed;
+    //wire den;
+    //debouncer E(.b(en),.clk(clk),.d(den));
+    clockDivider C(.clkin(clk),.clkout(clkout));    
+    caseController R(.sw(mem[pointer]),.en(run),.clk(clk),.led(led));
+    
+    always @(posedge clk) begin
+        //led = inLed;
         if (en) begin
             pointer = 0;
-            run = 1;
-        end
+            //run = 1;
+        end 
         else if (pointer == 14) begin 
-            run = 0;
             pointer = 0;
-        end
-        else begin
+            //run = 0;
+         end
+         else
             pointer = pointer + 1;
-        end
     end
     
 endmodule

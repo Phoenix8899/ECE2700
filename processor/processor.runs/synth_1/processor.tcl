@@ -18,8 +18,8 @@ set_property vhdl_version vhdl_2k [current_fileset]
 read_verilog -library xil_defaultlib {
   /home/ecestudent/ECE2700/processor/processor.srcs/sources_1/new/clockDivider.v
   /home/ecestudent/ECE2700/processor/processor.srcs/sources_1/new/caseController.v
-  /home/ecestudent/ECE2700/debouncer/debouncer.srcs/sources_1/new/debouncer.v
   /home/ecestudent/ECE2700/processor/processor.srcs/sources_1/new/rom.v
+  /home/ecestudent/ECE2700/debouncer/debouncer.srcs/sources_1/new/debouncer.v
   /home/ecestudent/ECE2700/processor/processor.srcs/sources_1/new/processor.v
 }
 read_xdc /home/ecestudent/ECE2700/Basys3_Master.xdc

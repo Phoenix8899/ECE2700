@@ -26,6 +26,8 @@ reg [7:0] sw;
 reg clk, en, sel;
 wire [3:0] led;
 
+reg [5:0]count;
+
 processor DUT (
     .sw(sw),
     .en(en),
@@ -35,10 +37,11 @@ processor DUT (
     );
 
 initial begin
-sel = 0;
+sel = 1;
 sw = 0;
 clk = 0;
 en = 0;
+count = 0;
 
 //    #100;
 //    #10 sw = 8'b0000_0001; //load x
@@ -52,8 +55,11 @@ forever #10 clk = ~clk;
 end
 
 always @(posedge clk) begin
-    sw = sw + 1;
-    en = ~en;
+    count = count + 1;
+    if (count == 1)
+        en = 1;
+    else if (count == 5)
+        en = 0;
     end
     
 

@@ -25,26 +25,24 @@ module processor(
     input [7:0] sw,
     output reg [3:0] led
     );
-       wire den, dsel;
-       //reg ens;
+       wire den;
+       wire clockout;
        wire [3:0] regLed,  regRom;
         //debouncer S(.b(sel),.clk(clk),.d(dsel));
-        
+        clockDivider C(.clkin(clk),.clkout(clkout)); 
         debouncer E(.b(en),.clk(clk),.d(den));
-        caseController single(.sw(sw),.en(den),.led(regLed));
-        rom R(.en(den),.clk(clk),.led(regRom));
+        caseController single(.sw(sw),.en(den),.clk(clk),.led(regLed));
+        rom R(.en(en),.clk(clkout),.led(regRom));
         
         always @(posedge clk) begin
             case (sel) 
                 1'b0 :  begin
-                    if (den) begin
+                    //if (den) begin
                         led = regLed;
-                        end 
+                    //end 
                 end 
                 1'b1 : begin
-                    //if (den) begin
-                    led = regRom;                   
-                    //end
+                    led = regRom;                  
                 end 
                     
                 default begin
